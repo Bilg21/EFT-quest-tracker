@@ -1,0 +1,202 @@
+QuestName,PriorQuest,NeededForKappa,Trader
+Debut,None,Y,Prapor
+Checking,Debut,Y,Prapor
+Shootout Picnic,Checking,Y,Prapor
+Delivery From The Past,Checking,Y,Prapor
+BP Depot,Delivery From The Past,Y,Prapor
+*The Bunker - Part 1,BP Depot,N,Prapor
+*The Bunker - Part 2,*The Bunker - Part 1,N,Prapor
+Bad Rep Evidence,BP Depot,Y,Prapor
+Ice Cream Cones,Bad Rep Evidence,Y,Prapor
+Postman Pat - Part 1,Ice Cream Cones,Y,Prapor
+Shaking Up Teller,Postman Pat - Part 1,Y,Prapor
+The Punisher - Part 1,Shaking Up Teller,Y,Prapor
+The Punisher - Part 2,The Punisher - Part 1,Y,Prapor
+The Punisher - Part 3,The Punisher - Part 2,Y,Prapor
+The Punisher - Part 4,The Punisher - Part 3,Y,Prapor
+The Punisher - Part 5,The Punisher - Part 4,Y,Prapor
+The Punisher - Part 6,The Punisher - Part 5,Y,Prapor
+Polikhim Hobo,None,Y,Prapor
+Big Customer,Chemical - Part 3,Y,Prapor
+*No Offence,Chemical - Part 4,N,Prapor
+Grenadier,Shaking Up Teller,Y,Prapor
+Perfect Mediator,Shaking Up Teller,Y,Prapor
+Insomnia,Grenadier,Y,Prapor
+Test Drive - Part 1,Grenadier,Y,Prapor
+*Anethesia,Shaking Up Teller,N,Prapor
+*Regulated Materials,Polikhim Hobo,N,Prapor
+Shortage,None,Y,Therapist
+Sanitary Standards - Part 1,Shortage,Y,Therapist
+Sanitary Standards - Part 2,Sanitary Standards - Part 1,Y,Therapist
+Operation Aquarious - Part 1,Shortage,Y,Therapist
+Operation Aquarious - Part 2,Operation Aquarious - Part 1,Y,Therapist
+Painkiller,Sanitary Standards - Part 2,Y,Therapist
+Pharmacist,Painkiller,Y,Therapist
+Supply Plans,Pharmacist,Y,Therapist
+General Wares,Pharmacist,Y,Therapist
+Car Repair,Pharmacist,Y,Therapist
+Health Care Privacy - Part 1,Pharmacist,Y,Therapist
+Health Care Privacy - Part 2,Health Care Privacy - Part 1,Y,Therapist
+Health Care Privacy - Part 3,Health Care Privacy - Part 2,Y,Therapist
+Health Care Privacy - Part 4,Health Care Privacy - Part 3,Y,Therapist
+Health Care Privacy - Part 5,Health Care Privacy - Part 4,Y,Therapist
+Postman Pat - Part 2,Postman Pat - Part 1,Y,Therapist
+Out of Curiosity,Chemical - Part 3,Y,Therapist
+*Trust Regain,None,N,Therapist
+*Hippocratic Vow,None,N,Therapist
+Private Clinic,Health Care Privacy - Part 4,Y,Therapist
+Athlete,Health Care Privacy - Part 4,Y,Therapist
+Deconamination Service,"Private Clinic,Health Care Privacy - Part 5",Y,Therapist
+*Colleagues - Part 1,General Wares,N,Therapist
+*Colleagues - Part 2,*Colleagues - Part 1,N,Therapist
+*Colleagues - Part 3,*Colleagues - Part 2,N,Therapist
+An Apply A Day - Keeps the Doctor Away,Health Care Privacy - Part 3,Y,Therapist
+Supplier,None,Y,Skier
+The Extorionist,Supplier,Y,Skier
+Stirrup,The Extorionist,Y,Skier
+What's On The Flash Drive?,The Extorionist,Y,Skier
+Golden Swag,What's On The Flash Drive?,Y,Skier
+Chemical - Part 1,Golden Swag,Y,Skier
+Chemical - Part 2,Chemical - Part 1,Y,Skier
+Chemical - Part 3,Chemical - Part 2,Y,Skier
+Chemical - Part 4,Chemical - Part 3,Y,Skier
+*Loyalty Buyout,None,N,Skier
+Friend from the West - Part 1,Golden Swag,Y,Skier
+Friend from the West - Part 2,Friend from the West - Part 1,Y,Skier
+"""Vitamins"" - Part 1",Chemical - Part 3,Y,Skier
+"""Vitamins"" - Part 2","""Vitamins"" - Part 1",Y,Skier
+Lend Lease - Part 1,Friend from the West - Part 2,Y,Skier
+Informed Means Armed,Friend from the West - Part 2,Y,Skier
+Chumming,Informed Means Armed,Y,Skier
+Kind of Sabotage,Pharmacist,Y,Skier
+Silent Caliber,Chumming,Y,Skier
+Flint,Chumming,Y,Skier
+Bullshit,Chumming,Y,Skier
+Setup,Bullshit,Y,Skier
+Rigged Game,*Anethesia,Y,Skier
+Fishing Gear,Friend from the West - Part 2,Y,Peacekeeper
+Tigr Safari,Fishing Gear,Y,Peacekeeper
+Scrap Metal,Tigr Safari,Y,Peacekeeper
+Eagle Eye,Scrap Metal,Y,Peacekeeper
+Humanitarian Supplies,Eagle Eye,Y,Peacekeeper
+The Cult - Part 1,Humanitarian Supplies,Y,Peacekeeper
+The Cult - Part 2,The Cult - Part 1,Y,Peacekeeper
+Spa Tour - Part 1,Humanitarian Supplies,Y,Peacekeeper
+Spa Tour - Part 2,Spa Tour - Part 1,Y,Peacekeeper
+Spa Tour - Part 3,Spa Tour - Part 2,Y,Peacekeeper
+Spa Tour - Part 4,Spa Tour - Part 3,Y,Peacekeeper
+Spa Tour - Part 5,Spa Tour - Part 4,Y,Peacekeeper
+Spa Tour - Part 6,Spa Tour - Part 5,Y,Peacekeeper
+Spa Tour - Part 7,Spa Tour - Part 6,Y,Peacekeeper
+Cargo X - Part 1,Spa Tour - Part 7,Y,Peacekeeper
+Cargo X - Part 2,Cargo X - Part 1,Y,Peacekeeper
+Cargo X - Part 3,Cargo X - Part 2,Y,Peacekeeper
+Lend Lease - Part 2,,Y,Peacekeeper
+Wet Job - Part 1,Spa Tour - Part 7,Y,Peacekeeper
+Wet Job - Part 2,Wet Job - Part 1,Y,Peacekeeper
+Wet Job - Part 3,Wet Job - Part 2,Y,Peacekeeper
+Wet Job - Part 4,Wet Job - Part 3,Y,Peacekeeper
+Wet Job - Part 5,Wet Job - Part 4,Y,Peacekeeper
+Wet Job - Part 6,Wet Job - Part 5,Y,Peacekeeper
+The Guide,Wet Job - Part 6,Y,Peacekeeper
+*Peacekeeping Mission,Humanitarian Supplies,N,Peacekeeper
+*Mentor,Wet Job - Part 4,N,Peacekeeper
+*Samples,,N,Peacekeeper
+TerraGroup Employee,,Y,Peacekeeper
+Gunsmith - Part 1,,Y,Mechanic
+Gunsmith - Part 2,Gunsmith - Part 1,Y,Mechanic
+Gunsmith - Part 3,Gunsmith - Part 2,Y,Mechanic
+Gunsmith - Part 4,Gunsmith - Part 3,Y,Mechanic
+Gunsmith - Part 5,Gunsmith - Part 4,Y,Mechanic
+Gunsmith - Part 6,Gunsmith - Part 5,Y,Mechanic
+Gunsmith - Part 7,Gunsmith - Part 6,Y,Mechanic
+Gunsmith - Part 8,Gunsmith - Part 7,Y,Mechanic
+Gunsmith - Part 9,Gunsmith - Part 8,Y,Mechanic
+Gunsmith - Part 10,Gunsmith - Part 9,Y,Mechanic
+Gunsmith - Part 11,Gunsmith - Part 10,Y,Mechanic
+Gunsmith - Part 12,Gunsmith - Part 11,Y,Mechanic
+Gunsmith - Part 13,Gunsmith - Part 12,Y,Mechanic
+Gunsmith - Part 14,Gunsmith - Part 13,Y,Mechanic
+Gunsmith - Part 15,Gunsmith - Part 14,Y,Mechanic
+Gunsmith - Part 16,Gunsmith - Part 15,Y,Mechanic
+Farming - Part 1,,Y,Mechanic
+Farming - Part 2,Farming - Part 1,Y,Mechanic
+Farming - Part 3,Farming - Part 2,Y,Mechanic
+Farming - Part 4,Farming - Part 3,Y,Mechanic
+Signal - Part 1,,Y,Mechanic
+Signal - Part 2,Signal - Part 1,Y,Mechanic
+Signal - Part 3,Signal - Part 2,Y,Mechanic
+Signal - Part 4,Signal - Part 3,Y,Mechanic
+Bad Habit,,Y,Mechanic
+Scout,,Y,Mechanic
+Insider,,Y,Mechanic
+Psycho Sniper,Wet Job - Part 6,Y,Mechanic
+*Import,,N,Mechanic
+Fertilizers,,Y,Mechanic
+A Shooter Born In Heaven,,Y,Mechanic
+Introduction,,Y,Mechanic
+The Chemistry Closet,,Y,Mechanic
+Only Business,,Y,Ragman
+Make ULTRA Great Again,,Y,Ragman
+Big Sale,,Y,Ragman
+The Blood of War - Part 1,,Y,Ragman
+Dressed to Kill,,Y,Ragman
+Gratitude,,Y,Ragman
+Sales Night,,Y,Ragman
+Hot Delivery,,Y,Ragman
+Database - Part 1,,Y,Ragman
+Database - Part 2,,Y,Ragman
+Minibus,,Y,Ragman
+Sew it Good - Part 1,,Y,Ragman
+Sew it Good - Part 2,,Y,Ragman
+Sew it Good - Part 3,,Y,Ragman
+Sew it Good - Part 4,,Y,Ragman
+The Blood of War - Part 2,,Y,Ragman
+The Blood of War - Part 3,,Y,Ragman
+The Key to Success,,Y,Ragman
+*Living High is Not A Crime - Part 1,,N,Ragman
+*Living High is Not A Crime - Part 2,,N,Ragman
+*Charisma Brings Success,,N,Ragman
+No Fuss Needed,,Y,Ragman
+Supervisor,,Y,Ragman
+Scavenger,,Y,Ragman
+*The Stylish One,,N,Ragman
+*Textile Part 1,,N,Ragman
+*Textile Part 2,,N,Ragman
+Jaegar,, ,
+Acquaintance,,Y,Jaegar
+"The Survivalist Path - Unprotected, but Dangerous",,Y,Jaegar
+The Survivalist Path - Thrifty,,Y,Jaegar
+The Survivalist Path - Zhivchik,,Y,Jaegar
+The Survivalist Path - Wounded Beast,,Y,Jaegar
+The Survivalist Path - Tough Guy,,Y,Jaegar
+The Survivalist Path - Cold Blooded,,Y,Jaegar
+The Survivalist Path - Combat Medic,,Y,Jaegar
+The Survivalist Path - Junkie,,Y,Jaegar
+Huntsman Path - Secured Perimeter,,Y,Jaegar
+Huntsman Path - The Trophy,,Y,Jaegar
+Huntsman Path - Woods Cleaning,,Y,Jaegar
+Huntsman Path - Controller,,Y,Jaegar
+Huntsman Path - Sell-Out,,Y,Jaegar
+Huntsman Path - Woods Keeper,,Y,Jaegar
+Huntsman Path - Justice,,Y,Jaegar
+Huntsman Path - Evil Watchman,,Y,Jaegar
+Huntsman Path - Eraser (Part 1),,Y,Jaegar
+Huntsman Path - Eraser - Part 2,,Y,Jaegar
+Ambulance,,Y,Jaegar
+Shady Business,What's On The Flash Drive?,Y,Jaegar
+Nostalgia,,Y,Jaegar
+Fishing Place,,Y,Jaegar
+Courtesy Visit,,Y,Jaegar
+*Hunting Trip,,N,Jaegar
+Reserv,,Y,Jaegar
+The Tarkov Shooter - Part 1,,Y,Jaegar
+The Tarkov Shooter - Part 2,,Y,Jaegar
+The Tarkov Shooter - Part 3,,Y,Jaegar
+The Tarkov Shooter - Part 4,,Y,Jaegar
+The Tarkov Shooter - Part 5,,Y,Jaegar
+The Tarkov Shooter - Part 6,,Y,Jaegar
+The Tarkov Shooter - Part 7,,Y,Jaegar
+The Tarkov Shooter - Part 8,,Y,Jaegar
+*The Huntsman Path - Sadist,,N,Jaegar
+Collector,,Y,Fence
