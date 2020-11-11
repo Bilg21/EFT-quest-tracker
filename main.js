@@ -73,10 +73,44 @@ input.addEventListener('change', function(e) {
 
 function displayQuests(quests) {
     const questBody = document.getElementById('questMap');
-    quests.forEach(element => {
-        questLi = document.createElement('li');
-        text = document.createTextNode(element);
-        questLi.appendChild(text);
-        questBody.appendChild(questLi);
+    quests.forEach(questName => {
+        if (questName[0] == "QuestName") return;
+        
+        quest_chkbox = document.createElement('input');
+        quest_chkbox.setAttribute("type", "checkbox");
+        label = document.createElement("label");
+        label.setAttribute("class", "quest");
+        label.innerHTML = questName[0];
+        text = document.createTextNode(questName);
+        quest_chkbox.onclick = questOnClick;
+        quest_chkbox.appendChild(label);
+
+        if (questName[2] == 'Y') {
+            quest_chkbox.setAttribute("checked", true);
+        }
+
+        questBody.appendChild(label);
+        questBody.appendChild(quest_chkbox);
     });
+}
+
+function questOnClick(chkbox) {
+    console.log("quest onclick..");
+    if (questDiv.getAttribute("id") === "questCompleted") {
+        questDiv.setAttribute("id", "");
+    } else
+        questDiv.setAttribute("id", "questCompleted");
+}
+
+
+function visualizeGraph(quests) {
+    var adjList;
+    quests.forEach((questName, priorQuest) => {
+        adjList.append([priorQuest, quest]);
+    });
+
+    var graph = {};
+    rootQuest = {quest:'Debut'};
+    graph.append(rootQuest);
+    adjList.forEach()
 }

@@ -1,0 +1,53 @@
+button {
+    border: none;
+    margin: 20px 20px 20px 20px;
+    &:focus {
+        outline: 2px dashed #17171D;
+    }
+    &:hover {
+        svg {
+            transform: scale(1.1);
+        }
+    }
+    svg {
+        outline: none;
+        transition: transform 0.3s linear;
+    }
+}
+
+label {
+    width: 400px;
+}
+
+#questMap {
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+}
+
+/* div .quest {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 400px;
+    padding : 6px;
+    margin : 6px;
+} */
+
+#questNotComplete {
+    background-color : white;
+}
+
+#questComplete {
+    background-color : greenyellow;
+}
+
+input[type=checkbox] + label {
+    color: black;
+    background-color: white;
+}
+
+input[type=checkbox]:checked + label {
+    color: #f00;
+    background-color: greenyellow;
+}
