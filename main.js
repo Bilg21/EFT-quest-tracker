@@ -75,31 +75,43 @@ function displayQuests(quests) {
     const questBody = document.getElementById('questMap');
     quests.forEach(questName => {
         if (questName[0] == "QuestName") return;
-        
+       
+        quest_div = document.createElement('div');
+        quest_div.id = "quest_" + questName[0];
         quest_chkbox = document.createElement('input');
         quest_chkbox.setAttribute("type", "checkbox");
+        quest_chkbox.id = questName[0];
         label = document.createElement("label");
         label.setAttribute("class", "quest");
+        label.id = "label_" + questName[0];
         label.innerHTML = questName[0];
-        text = document.createTextNode(questName);
-        quest_chkbox.onclick = questOnClick;
-        quest_chkbox.appendChild(label);
+        quest_chkbox.onclick = function() { questOnClick('quest_' + questName[0]); };
+        //quest_chkbox.appendChild(label);
 
         if (questName[2] == 'Y') {
             quest_chkbox.setAttribute("checked", true);
+            quest_div.setAttribute("class", "questCompleted");
+        } else {
+            quest_div.setAttribute("class", "questNotComplete");
         }
 
-        questBody.appendChild(label);
-        questBody.appendChild(quest_chkbox);
+        quest_div.appendChild(label);
+        quest_div.appendChild(quest_chkbox);
+        questBody.appendChild(quest_div);
     });
 }
 
-function questOnClick(chkbox) {
-    console.log("quest onclick..");
-    if (questDiv.getAttribute("id") === "questCompleted") {
-        questDiv.setAttribute("id", "");
+function questOnClick(divid) {
+    questDiv = document.getElementById(divid);
+    if (typeof questDiv == undefined || questDiv === null) { 
+      console.log("not register click -> questDiv:" + questDiv); 
+      return;
+    }
+    console.log("quest onclick.. " + divid);
+    if (questDiv.getAttribute("class") === "questCompleted") {
+        questDiv.setAttribute("class", "questNotComplete"); 
     } else
-        questDiv.setAttribute("id", "questCompleted");
+        questDiv.setAttribute("class", "questCompleted");
 }
 
 
